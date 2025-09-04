@@ -8,7 +8,7 @@ export const DATA = {
   location: "Ben Arous, Tunis",
   locationLink: "https://www.google.com/maps/place/Ben+Arous/",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Software Engineering student, passionate about Competitive Programming, loves learning things.",
   summary:
     "I’m a 21-year-old Computer Science student at [ISI Ariana](http://www.isi.rnu.tn/institut/presentation/) with a strong passion for competitive programming, algorithms, and data science. I’ve sharpened my skills through platforms like [Codeforces](https://codeforces.com/profile/bahab), [Leetcode](https://leetcode.com/u/BahaBouali22/), and real-world experience during my internship at [Pyxis IT](#work). Beyond coding challenges, I enjoy exploring new technologies and building solutions that bridge theory and practice. Currently, I’m looking for opportunities where I can apply my problem-solving skills to impactful projects.",
   avatarUrl: "/my-notion-face-portrait.png",
@@ -26,7 +26,6 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "baha.bouali2020@gmail.com",
@@ -46,10 +45,10 @@ export const DATA = {
 
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
+      leetcode: {
+        name: "Leetcode",
+        url: "https://leetcode.com/BahaBouali22",
+        icon: Icons.leetcode,
 
         navbar: true,
       },
@@ -59,6 +58,13 @@ export const DATA = {
         icon: Icons.email,
 
         navbar: false,
+      },
+      codeforces: {
+        name: "Codeforces",
+        url: "https://codeforces.com/profile/bahab",
+        icon: Icons.codeforces,
+
+        navbar: true,
       },
     },
   },

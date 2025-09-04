@@ -220,4 +220,39 @@ export const Icons = {
       />
     </svg>
   ),
+  leetcode: (props: React.SVGProps<SVGSVGElement>) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <path
+        d="M17.5 7h-6l-4 5 4 5h6"
+        stroke="#FFA116"
+      />
+      <path
+        d="M13.5 12h7"
+        stroke="#000"
+      />
+    </svg>
+  ),
+  codeforces: (props: React.SVGProps<SVGSVGElement>) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 256 256"
+      {...props}
+    >
+      {/* Blue rectangle */}
+      <rect x="20" y="40" width="50" height="160" fill="#1f8acb" />
+      {/* Red rectangle */}
+      <rect x="95" y="10" width="50" height="190" fill="#e74c3c" />
+      {/* Yellow rectangle */}
+      <rect x="170" y="70" width="50" height="130" fill="#f1c40f" />
+    </svg>
+  ),
 };
