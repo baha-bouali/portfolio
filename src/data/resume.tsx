@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineering student, passionate about Competitive Programming, loves learning things.",
   summary:
     "I’m a 21-year-old Computer Science student at [ISI Ariana](http://www.isi.rnu.tn/institut/presentation/) with a strong passion for competitive programming, algorithms, and data science. I’ve sharpened my skills through platforms like [Codeforces](https://codeforces.com/profile/bahab), [Leetcode](https://leetcode.com/u/BahaBouali22/), and real-world experience during my internship at [Pyxis IT](#work). Beyond coding challenges, I enjoy exploring new technologies and building solutions that bridge theory and practice. Currently, I’m looking for opportunities where I can apply my problem-solving skills to impactful projects.",
-  avatarUrl: "/my-notion-face-portrait.png",
+  avatarUrl: "/avatartion.png",
   skills: [
     "React",
     "Next.js",
